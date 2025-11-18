@@ -8,4 +8,7 @@ function calcmoy($liste){
     $moyen = $nb/count($liste);
     return $moyen;
 }
+
+$m = calcmoy([14,11,12]);
+echo $m;
 ?>
