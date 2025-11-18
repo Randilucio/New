@@ -23,7 +23,7 @@ while (($line = fgets($handle)) !== false) {
         $correct = $i * $j; 
 
         if ($val !== $correct) {
-            $erreurs[] = $i ."x".$j ."=" . $val; 
+            $erreurs[] = $i ."x".$j ."=" . $val."<br>"; 
         }
     }
 }
