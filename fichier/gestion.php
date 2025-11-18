@@ -1,4 +1,5 @@
 <?php
+
 $contact = ["Alice Dupont","John Doe","Jean Martin","Francis Lebrun","Cahoot"];
 $file = "fichier.txt";
 $fichier = fopen($file,"a+");
