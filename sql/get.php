@@ -31,7 +31,6 @@ $sth->execute();
 
 $data = $sth->fetchAll(PDO::FETCH_ASSOC);
 ?>
-
 <table>
     <thead>
         <tr>
