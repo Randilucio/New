@@ -101,7 +101,6 @@ $nbPages = ceil($total / $parPage);
 <div>
 <?php for ($i = 1; $i <= $nbPages; $i++): ?>
     <a href="?page=<?= $i ?>
-        <?= $i ?>
     </a>
 <?php endfor; ?>
 </div>
