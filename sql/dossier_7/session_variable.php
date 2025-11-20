@@ -34,6 +34,7 @@ if(isset($_POST['register'])){
 
 /* ------------------------- LOGIN ------------------------- */
 if(isset($_POST['login'])){
+    //a noté c est password pas mdp dans la bd 
     
     if(!empty($_POST['username']) && !empty($_POST['mdp'])){
 
