@@ -2,7 +2,6 @@
 session_start();
 if ($_SERVER == "POST" && isset($_POST['nom'])) {
     $_SESSION['nom'] = $_POST['nom'];
-    echo "Nom enregistré en session : " . htmlspecialchars($_SESSION['nom']);
 
 }
 if (isset($_POST['nom'])) {
@@ -12,6 +11,7 @@ if (isset($_POST['nom'])) {
 }
 if (isset($_GET['logout'])) {
     $logout = session_unset();
+    unset($_SESSION['nom']);
 }
 
 ?>
